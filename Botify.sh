@@ -31,7 +31,7 @@ if [ $# -ge 0 ] && [ $# -le 1 ]; then
         "")
             for i in {1..3}; do
                 print_animated "$UNKNOWN" "$RED"
-                print_animated ": ..." "$WHITE" 
+                print_animated ": ..." "$WHITE"
                 sleep 0.5
                 echo
                 echo
@@ -66,7 +66,7 @@ if [ $# -ge 0 ] && [ $# -le 1 ]; then
             echo
             sleep 0.3
             echo
-            
+
             print_animated "$BOTIFY" "$GREEN"
 
             str=": Per valutare le tue abilità, ti affiderò uno dei compiti più semplici che svolgo quotidianamente: ordinare le canzoni nelle playlist."
@@ -82,7 +82,7 @@ if [ $# -ge 0 ] && [ $# -le 1 ]; then
             print_animated "media" "$YELLOW"
             str=" con all'interno alcuni file. Ti chiedo di creare una cartella "
             print_animated "playlists" "$YELLOW"
-            str=", al suo interno creare una playlist "
+            str=", all interno della quale creare una playlist "
             print_animated "$str" "$WHITE"
             print_animated "Rock" "$YELLOW"
             str=" e una playlist "
