@@ -124,7 +124,7 @@ if [ $# -ge 0 ] && [ $# -le 1 ]; then
             echo
 
             print_animated "$BOTIFY" "$GREEN"
-            str=": Prima di lasciarti voglio darti un'ultimo consiglio... Dai un'occhiata ai testi delle canzoni in ordine alfabetico per altri eventuali indizi ;)."
+            str=": Prima di lasciarti voglio darti un'ultimo consiglio... Prima di spostare i file dai un'occhiata ai testi delle canzoni in ordine alfabetico per altri eventuali indizi ;)."
             print_animated "$str" "$WHITE"
 
             echo
