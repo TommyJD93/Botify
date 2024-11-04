@@ -107,7 +107,7 @@ if [ $# -ge 0 ] && [ $# -le 1 ]; then
             print_animated "$BOTIFY" "$GREEN"
             str=": Per vedere la lista delle canzoni per genere, usa "
             print_animated "$str" "$WHITE"
-            print_animated "sh Botify.sh genere" "$PURPLE"
+            print_animated "bash Botify.sh genere" "$PURPLE"
 
             echo
             sleep 0.3
